@@ -1,0 +1,33 @@
+.statistics {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid;
+  text-align: center;
+  margin: 30px auto;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.statistics h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 22px;
+}
+
+.statList {
+  list-style: none;
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item span:first-child {
+  margin-bottom: 5px;
+}
